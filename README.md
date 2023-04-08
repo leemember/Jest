@@ -67,7 +67,7 @@ setupTests.js 파일을 사용해 각 테스트 전에 jest-dom을 가져온다.
 ### ⭐️ Jest를 본격적으로 배워보자 ⭐️
 
 테스트 러너가 필요하다. 테스트를 찾고 실행하며 단언할 무언가가 필요. -> 이때 Jest를 사용한다. <br>
-Jest가 유일한 테스트 러너는 아니다. Mocha나 Jasmine(제스민)도 있지만, **테스팅 라이브러리에서 Jest를 권장하며 CRA와 함께 제공된다.** <br>
+Jest가 유일한 테스트 러너는 아니다. <br> Mocha나 Jasmine(제스민)도 있지만, **테스팅 라이브러리에서 Jest를 권장하며 CRA와 함께 제공된다.** <br>
 그 외에도 **효율적이고 사용이 쉽다.** `npm test`를 하면 `npm script`를 실행했고 그 스크립트가 Jest를 Watch 모드로 실행되게 한다. <br>
 `pagekage.json` 파일에 가면 `script`가 있는데 test를 실행하면 `react-scripts test`를 실행하는 것이다.
 
